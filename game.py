@@ -10,7 +10,7 @@
 #                                                                                                                                       *
 #                           This is the initial prompt for player 1 (entering the word to be guessed in the game)                       *
 #                                                                                                                                       *
-#                                                             Tulelle                                                                   *
+#                                                             Tulell                                                                    *
 #                                                                                                                                       *
 # ***************************************************************************************************************************************
 
