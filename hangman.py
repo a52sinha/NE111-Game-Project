@@ -1,0 +1,15 @@
+print("\t------------------")
+print("\t|\t\t |")
+print("\t|\t        ---")
+print("\t|\t       |o o|")
+print("\t|\t        ---")
+print("\t|\t        _|_")
+print("\t|\t       / | \\")
+print("\t|\t         |  ")
+print("\t|\t         | ")
+print("\t|\t        / \\")
+print("\t|\t       /   \\")
+print("\t|")
+print("   =====|====================")
+
+
