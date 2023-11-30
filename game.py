@@ -14,12 +14,12 @@
 # ***************************************************************************************************************************************
 
 a = 0
-while a == 0:
-    og_word = input("\nInput one word:\n")
-    topic_input = input ("\nInput a topic to help the guesser: \n ")
-    print ("\nThe topic for your word is: " + topic_input + "\n" )
-    if og_word.isalpha():  # makes sure every variable entered is a letter 
-        og_word = og_word.lower()
+while a == 0: # while loop that continues until a word that meets the requirements is chosen
+    og_word = input("\nInput one word:\n")# querys the user to input there chosen word 
+    topic_input = input ("\nInput a topic to help the guesser: \n ")# querys the user to input a hint to aid the player 
+    print ("\nThe topic for your word is: " + topic_input + "\n" ) # displays the users hint to the player
+    if og_word.isalpha():  # assures every variable entered is a letter 
+        og_word = og_word.lower()# switches every letter of the inputed word to lowercase 
         og_wordlist = list(og_word)  # turns the entered word into a list 
         a += 1
     else:
@@ -89,6 +89,35 @@ for i in range(len(og_wordlist)):
     if c <= -6:  # if the player doesn't guess the right letter after the 6th guess, the game is over and the loop breaks 
         print("\nGame over :( The correct word was: " + og_word + "\n")
         break
+if c == -1:
+        print("\t------------------")
+        print("\t|\t\t |")
+        print("\t|\t        ---")
+        print("\t|\t       |   |")
+        print("\t|\t        ---")
+        print("\t|\t        ")
+        print("\t|\t       ")
+        print("\t|\t        ")
+        print("\t|\t        ")
+        print("\t|\t        ")
+        print("\t|\t       ")
+        print("\t|")
+        print("   =====|====================")
+elif c == -2: 
+    print("\t------------------")
+    print("\t|\t\t |")
+    print("\t|\t        ---")
+    print("\t|\t       |o o|")
+    print("\t|\t        ---")
+    print("\t|\t        ")
+    print("\t|\t       ")
+    print("\t|\t        ")
+    print("\t|\t        ")
+    print("\t|\t        ")
+    print("\t|\t       ")
+    print("\t|")
+    print("   =====|====================")
+
 
     # Check for win condition
     if i == len(og_wordlist) - 1:
